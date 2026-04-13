@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1' singleton='false' generation='2'>
+    <update id='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' range='[0.0.0,0.3.1)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='AbstractInterpretationV2Test'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Ultimate Program Analysis Team'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test'/>
+      <property name='maven-version' value='0.3.1'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1'/>
+      <provided namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1'/>
+      <provided namespace='osgi.identity' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1'>
+        <properties size='1'>
+          <property name='type' value='osgi.fragment'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2' version='0.3.1'/>
+    </provides>
+    <requires size='14'>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.util' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.smtlibutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.test' range='0.0.0'/>
+      <required namespace='java.package' name='junit.framework' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit.runner' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit.runner.notification' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit.runners' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=21))'>
+        <description>
+          de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test.source' range='[0.3.1,0.3.1]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test&#xA;Bundle-Version: 0.3.1&#xA;Fragment-Host: de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

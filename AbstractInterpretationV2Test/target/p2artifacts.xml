@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test' version='0.3.1'>
+    <properties size='9'>
+      <property name='artifact.size' value='64212'/>
+      <property name='download.size' value='64212'/>
+      <property name='download.checksum.sha-512' value='2d0e6657f86d4096d2c0e08f29ab8def73bada068ea996d71c8712e4b4be0145cd02441ea9b4907fa911ef56f5332f401a4e20ada1f72420dc3ef04f88b6aafe'/>
+      <property name='download.checksum.sha-1' value='057f6efab67ceffafba1728cb4c9b904750e6806'/>
+      <property name='download.checksum.sha-256' value='084b0b344791be08471874e85bb92c30434dad6963d23e18a7edf67a61df8fe0'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2.test'/>
+      <property name='maven-version' value='0.3.1'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

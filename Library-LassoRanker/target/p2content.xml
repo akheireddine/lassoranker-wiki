@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5' singleton='false' generation='2'>
+    <update id='de.uni_freiburg.informatik.ultimate.lib.lassoranker' range='[0.0.0,0.9.5)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='Library-LassoRanker'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Ultimate Program Analysis Team'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.lib.lassoranker'/>
+      <property name='maven-version' value='0.9.5'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='13'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'/>
+      <provided namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.exceptions' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.nontermination' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.preprocessors' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.synthesis' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.termination' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.termination.rankingfunctions' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.termination.templates' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.lassoranker.variables' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='14'>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.util' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.smtlib' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.smtlibutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.modelcheckerutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.smtinterpol' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.smtsolver.external' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.icfgtransformer' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.automata' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.tracecheckerutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.commons.lang3' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=21))'>
+        <description>
+          de.uni_freiburg.informatik.ultimate.lib.lassoranker
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.lib.lassoranker.source' range='[0.9.5,0.9.5]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.uni_freiburg.informatik.ultimate.lib.lassoranker&#xA;Bundle-Version: 0.9.5&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

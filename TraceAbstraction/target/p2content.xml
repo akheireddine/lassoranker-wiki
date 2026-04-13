@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1' generation='2'>
+    <update id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' range='[0.0.0,0.3.1)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='TraceAbstraction'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Ultimate Program Analysis Team'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction'/>
+      <property name='maven-version' value='0.3.1'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='17'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1'/>
+      <provided namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.automataminimization' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.benchmark' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.concurrency' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.interpolantautomata.builders' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.interpolantautomata.transitionappender' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.interpolantconsolidation' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.pathinvariants' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.pathinvariants.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.predicates' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.tracehandling' version='0.0.0'/>
+      <provided namespace='java.package' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.witnesschecking' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='29'>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.smtlib' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.smtinterpol' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.util' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.boogieast' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.boogie.preprocessor' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.smtsolver.external' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.automata' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.smtlibutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.modelcheckerutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.witnessparser' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.lassoranker' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.ultimatemodel' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.icfgtransformer' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.blockencoding' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.source.automatascriptparser' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.generator.automatascriptinterpreter' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.pdr' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.proofs' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.mcr' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.plugins.sifa' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.sifa' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.tracecheckerutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.uni_freiburg.informatik.ultimate.lib.acceleratedinterpolation' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=21))'>
+        <description>
+          de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.source' range='[0.3.1,0.3.1]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction;singleton:=true&#xA;Bundle-Version: 0.3.1&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

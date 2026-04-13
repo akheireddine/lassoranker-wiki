@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Library-LassoRanker
+Bundle-SymbolicName: de.uni_freiburg.informatik.ultimate.lib.lassoranker
+Bundle-Vendor: Ultimate Program Analysis Team
+Bundle-Version: 0.9.5
+Bundle-Activator: de.uni_freiburg.informatik.ultimate.lassoranker.Activa
+ tor
+Require-Bundle: de.uni_freiburg.informatik.ultimate.lib.core,de.uni_frei
+ burg.informatik.ultimate.lib.util,de.uni_freiburg.informatik.ultimate.c
+ ore,de.uni_freiburg.informatik.ultimate.lib.smtlib,de.uni_freiburg.info
+ rmatik.ultimate.lib.smtlibutils,de.uni_freiburg.informatik.ultimate.lib
+ .modelcheckerutils,de.uni_freiburg.informatik.ultimate.smtinterpol;reso
+ lution:=optional,de.uni_freiburg.informatik.ultimate.smtsolver.external
+ ,de.uni_freiburg.informatik.ultimate.lib.icfgtransformer,de.uni_freibur
+ g.informatik.ultimate.lib.automata,de.uni_freiburg.informatik.ultimate.
+ lib.tracecheckerutils,org.apache.commons.lang3
+Export-Package: de.uni_freiburg.informatik.ultimate.lassoranker,de.uni_f
+ reiburg.informatik.ultimate.lassoranker.exceptions,de.uni_freiburg.info
+ rmatik.ultimate.lassoranker.nontermination,de.uni_freiburg.informatik.u
+ ltimate.lassoranker.preprocessors,de.uni_freiburg.informatik.ultimate.l
+ assoranker.synthesis,de.uni_freiburg.informatik.ultimate.lassoranker.te
+ rmination,de.uni_freiburg.informatik.ultimate.lassoranker.termination.r
+ ankingfunctions,de.uni_freiburg.informatik.ultimate.lassoranker.termina
+ tion.templates,de.uni_freiburg.informatik.ultimate.lassoranker.variable
+ s
+Automatic-Module-Name: de.uni.freiburg.informatik.ultimate.lib.lassorank
+ er
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
+

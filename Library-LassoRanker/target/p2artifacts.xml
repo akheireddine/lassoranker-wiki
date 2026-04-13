@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'>
+    <properties size='9'>
+      <property name='artifact.size' value='237435'/>
+      <property name='download.size' value='237435'/>
+      <property name='download.checksum.sha-512' value='7a729976c16e6f215fb823a43dccaca426116014f19df8a6e656cfd02eeee6e3efc44cb0ed9e6a26e929308d6c1c80fcfb8ca43fa95262838011519b506460e1'/>
+      <property name='download.checksum.sha-1' value='c2c210d6601980986e3dfc2f338740a7e76712c2'/>
+      <property name='download.checksum.sha-256' value='9d97aa1daea2f9c4d3ce25248a17c0b5d9c88f06ae02b247e66caa3d743a5738'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.lib.lassoranker'/>
+      <property name='maven-version' value='0.9.5'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

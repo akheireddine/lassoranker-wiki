@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.3.1'>
+    <properties size='9'>
+      <property name='artifact.size' value='858723'/>
+      <property name='download.size' value='858723'/>
+      <property name='download.checksum.sha-512' value='ecd2037773d3f54f680cff9558c9dbc669f064983e1922f2c15ed9188be21317e6cad7e2473385853300fbbbb4f0e4e26e0f90cf0618e5f4fb624f7f26470d28'/>
+      <property name='download.checksum.sha-1' value='57a974065b6143df99b858a642e90b4eceb9bcc5'/>
+      <property name='download.checksum.sha-256' value='f6d5baac7de53bde3dba18743f16b0e2eed443ac6a51df582560d67875368d73'/>
+      <property name='maven-groupId' value='de.uni_freiburg.informatik.ultimate'/>
+      <property name='maven-artifactId' value='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction'/>
+      <property name='maven-version' value='0.3.1'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>
